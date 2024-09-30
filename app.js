@@ -17,7 +17,7 @@ connectDB();
 // Middleware to parse JSON
 app.use(express.json());
 const corsOperation = {
-    origin: ['http://localhost:5173', 'https://66fab67af501781cfdce9ddc--monumental-kitten-caca9c.netlify.app'],
+    origin: ['http://localhost:5173', 'https://voting-rutvik.netlify.app'],
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD ",
     credentials: true,
 }
